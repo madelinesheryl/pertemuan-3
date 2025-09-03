@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 
 # ==== CONFIG ====
-INPUT_PATH = "TGM 2020-2023_eng.csv.xlsx"
-SHEET_NAME = "TGM 2020-2023_eng"
+TGM 2020-2023_eng.csv.xlsx
 IQR_K = 1.5                       # Tukey rule multiplier
 EXCLUDE_COLS = {"Year"}           # columns to skip for outlier detection
 OUTPUT_XLSX = "TGM_2020_2023_cleaned_IQR.xlsx"
